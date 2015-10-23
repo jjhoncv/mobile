@@ -37,7 +37,7 @@ var main = (function(){
     },
     
     filesToUpload : function(files){
-      Sb.trigger("add:files", files)
+      Sb.trigger("files:add", files)
     },
     
     sharedFiles : function(callback){
